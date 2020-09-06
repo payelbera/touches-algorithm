@@ -24,7 +24,7 @@ function touchMoved(){
     temp_pos = pos;
     myTouch.push(pos)
     console.log("touch pos first "+pos);
-   // pos=[];
+   pos=[];
     first = false;
   }
   
