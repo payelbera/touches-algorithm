@@ -19,6 +19,7 @@ function touchMoved(){
   console.log("touchMoved");
   
   pos = [touchX,touchY];
+  console.log(pos)
   if(first){
     temp_pos = pos;
     myTouch.push(pos)
