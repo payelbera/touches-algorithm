@@ -40,6 +40,9 @@ function touchMoved(){
   for(var i = 0;i<myTouch.length;i++){
     console.log("myTouch length "+myTouch.length);
     if(myTouch.length>1 && myTouch[i][0]<myTouch[i+1][0]){
+      console.log(myTouch[i][0]);
+      console.log(myTouch[i+1][0]);
+      
       trex.x = trex.x-5;
     }
     else{
