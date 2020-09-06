@@ -39,10 +39,10 @@ function touchMoved(){
   for(var i = 0;i<myTouch.length;i++){
     console.log("myTouch length "+myTouch.length);
     if(myTouch.length>1 && myTouch[i][0]<myTouch[i+1][0]){
-      trex.x = trex.x-1;
+      trex.x = trex.x-5;
     }
     else{
-      trex.x = trex.x+1;
+      trex.x = trex.x+5;
     }
   }
   
